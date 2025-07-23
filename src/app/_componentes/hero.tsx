@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export function Hero() {
   return (
-    <section className="relative h-[700px] md:h-[600px] lg:h-[800px] bg-black overflow-hidden text-white">
+    <section className="relative h-[500px] md:h-[500px] lg:h-[800px] overflow-hidden text-white">
       
       <div className="absolute inset-0 -z-10">
         <Image
@@ -14,7 +14,7 @@ export function Hero() {
           quality={100}
           fill
           priority
-          className="object-cover object-center w-full h-full opacity-60"
+          className="object-cover object-center w-full h-full opacity-100"
         />
       </div>
       <div className="container mx-auto h-full px-6 flex items-center">
@@ -40,7 +40,7 @@ export function Hero() {
 
             <a
               href="#"
-              className="bg-rose-500 hover:bg-rose-600 transition px-8 py-3 rounded-lg text-white font-semibold flex items-center justify-center gap-2 shadow-md"
+              className="bg-rose-500 hover:bg-rose-600 transition px-8 py-3 rounded-lg text-black font-semibold flex items-center justify-center gap-2 shadow-md"
             >
               <InstagramLogoIcon className="w-5 h-5" />
               Instagram
