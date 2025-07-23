@@ -1,6 +1,6 @@
 import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr'
 import { InstagramLogoIcon } from '@phosphor-icons/react/dist/ssr'
-import bghero from '../../../public/beleza.avif'
+import bghero from '../../../public/beleza.png'
 import Image from 'next/image'
 
 export function Hero() {
